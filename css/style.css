@@ -16,7 +16,7 @@ html {
   height: 100vh;
   width: 30rem;
   background: #006599;
-  padding: 4rem;
+  padding: 3rem;
   text-align: center;
   position: fixed;
   /* display: none; */
@@ -68,7 +68,11 @@ html {
 }
 
 #sessao-bemvindo h2,
-#sobre-nos h2 {
+#sobre-nos h2,
+#sessao-doce-1 h2,
+#sessao-doce-2 h2,
+#sessao-doce-3 h2,
+#formulario h2 {
   font-size: 4.8rem;
   margin-top: 3rem;
   color: #006599;
@@ -132,4 +136,152 @@ html {
   width: 30rem;
   height: 40rem;
   background-size: cover;
+}
+
+/* =====================galerias=========== */
+
+.sessao-doce-1,
+.sessao-doce-2 {
+  margin-bottom: 5rem;
+}
+
+#img-1 {
+  background: url(../img/galeria1.jpg) center;
+  background-size: cover;
+}
+#img-2 {
+  background: url(../img/galeria2.jpg) center;
+  background-size: cover;
+}
+#img-3 {
+  background: url(../img/galeria3.jpg) center;
+  background-size: cover;
+}
+
+#img-4 {
+  background: url(../img/galeria4.jpg) center;
+  background-size: cover;
+}
+
+#img-5 {
+  background: url(../img/galeria5.jpg) center;
+  background-size: cover;
+}
+
+.doces1-img {
+  width: 18.8%;
+  margin-right: 0.5rem;
+}
+
+.banner-galeria {
+  background-position: center;
+  display: inline-block;
+  height: 20rem;
+}
+
+/* ========sessão 2 */
+
+.doces2-img {
+  width: 32%;
+  margin-right: 0.5rem;
+}
+
+#img-6 {
+  background: url(../img/galeria6.jpg) center;
+  background-size: cover;
+}
+
+#img-7 {
+  background: url(../img/galeria7.jpg) center;
+  background-size: cover;
+}
+
+#img-8 {
+  background: url(../img/galeria8.jpg) center;
+  background-size: cover;
+}
+
+/* sessão 3 */
+
+.doces3-img {
+  width: 24%;
+  margin-right: 0.5rem;
+}
+
+#img-9 {
+  background: url(../img/galeria9.jpg) center;
+  background-size: cover;
+}
+
+#img-10 {
+  background: url(../img/galeria10.jpg) center;
+  background-size: cover;
+}
+
+#img-11 {
+  background: url(../img/galeria11.jpg) center;
+  background-size: cover;
+}
+
+#img-12 {
+  background: url(../img/galeria12.jpg) center;
+  background-size: cover;
+}
+
+/* formulario */
+
+#formulario {
+  width: 50%;
+  margin-bottom: 5rem;
+}
+
+#formulario label,
+#formulario input {
+  display: block;
+  width: 100%;
+  height: 4.5rem;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+  color: #006599;
+}
+#formulario input {
+  border: 1px solid #006599;
+  outline: none;
+}
+
+#formulario textarea {
+  border: 1px solid #006599;
+  width: 100%;
+  margin-top: 2rem;
+  color: #006599;
+}
+
+#formulario textarea::placeholder {
+  color: #006599;
+}
+
+.btn-enviar {
+  background-color: #006599;
+  color: #fff;
+  width: 14rem;
+  padding: 2rem 4rem;
+  border: none;
+  display: block;
+  text-align: center;
+  transition: 0.5s;
+  margin-top: 2rem;
+}
+
+.btn-enviar:hover {
+  background-color: #238bc1;
+}
+
+footer {
+  width: 100%;
+  height: 5rem;
+  text-align: center;
+}
+
+footer p {
+  color: #006599;
 }
