@@ -285,3 +285,58 @@ footer {
 footer p {
   color: #006599;
 }
+
+/* ===========HEADER============ */
+
+/* display nane */
+.header {
+  display: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+  background-color: #006599;
+}
+
+.header .logo a {
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.header .navigation ul,
+.header .navigation li {
+  display: flex;
+}
+
+.header .navigation li {
+  margin-right: 2rem;
+}
+.header .navigation li a {
+  color: white;
+  font-weight: 600;
+  font-size: 1.6rem;
+  transition: 0.3s;
+  text-transform: uppercase;
+}
+
+.header .navigation li a:hover {
+  color: #fff5a2;
+}
+
+@media (max-width: 1300px) {
+  .navbar {
+    display: none;
+  }
+
+  .main {
+    /* background-color: red; */
+    position: inherit;
+    left: inherit;
+    width: inherit;
+    height: inherit;
+  }
+
+  header {
+    display: block;
+  }
+}
